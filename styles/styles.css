@@ -1,0 +1,171 @@
+/*--------------------SETTINGS-------------------*/
+/*font-family: 'Expletus Sans', cursive;
+font-family: 'Rubik', sans-serif;
+*/
+
+
+
+
+/*-------------------GENERIC---------------*/
+
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+li{
+    list-style:none;
+}
+h1, h2{
+    margin:0;
+
+}
+
+
+
+/*-------------------ELEMENTS---------------*/
+
+body{
+    margin: 0;
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.125rem;
+    line-height: 25px;
+
+}
+h1{
+    font-family: 'Expletus Sans', cursive;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 6rem;
+    line-height: 125px;
+    color: #2D2D2D;
+}
+a{
+    text-decoration: none;
+    color: #2D2D2D;
+}
+a:hover{
+
+    text-decoration-line: underline;
+    color: #FFFCFC;
+}
+h2{
+    font-family: 'Expletus Sans', cursive;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 4rem;
+    line-height: 83px;
+
+    color: #FFFFFF;
+}
+h3{
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 0.875rem;
+
+    color: #FFFFFF;
+}
+
+
+
+
+
+
+/*-------------------COMPONENTS-----------------*/
+.conteneur{
+    margin: 0 auto;
+    max-width: 1140px;
+}
+.header-principal{
+    background: #FF9800;
+    width: 100%;
+    height: 61px;
+
+}
+ul{
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+    height: 61px;
+    align-items: center;
+}
+li{
+    margin-left: 20px;
+}
+.hero{
+    background:#FFC107 ;
+    min-height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero h1 {
+    padding: 88px 0;
+}
+.information{
+    padding:30px 0;
+}
+.information .conteneur{
+    display: flex;
+    justify-content:space-between ;
+
+}
+.carte{
+    width: 31%;
+    background: #F0F0F0;
+    display: flex;
+    flex-direction: column;
+
+}
+.carte header{
+    padding: 60px 0;
+    text-align: center;
+
+}
+.carte:nth-child(1) header{
+    background: #E34E26;
+}
+.carte:nth-child(2) header{
+    background: #0270BB;
+}
+.carte:nth-child(3) header{
+    background: #F8DC3D;
+}
+.conteneur .content{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: space-between;
+    padding: 20px;
+}
+.carte-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.bouton{
+    background: #FFC107;
+    border: 1px solid #E64A19;
+    border-radius: 5px;
+    padding: 10px;
+}
+span{
+    color: #E64A19;
+}
+.footer-principal{
+
+    background-color:#E64A19 ;
+    height: 60px;
+
+}
+.footer-principal .conteneur h3 {
+    padding: 20px;
+    color: white;
+}
+
+
+
+
+
+/*-------------------UTILITIES------------------*/
